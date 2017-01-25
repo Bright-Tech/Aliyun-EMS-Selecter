@@ -1,0 +1,20 @@
+{
+    "name": "bright-tech/aliyun-ems-selector",
+    "description": "全国快递查询 laravel ",
+    "type": "sdk",
+    "keywords": ["aliyun","ems","sdk","php","laravel"],
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "authors": [
+        {
+            "name": "dudashuang",
+            "email": "wang.wenchao@bright-tech.cn"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {"Ems\\": "src/"}
+    }
+}
