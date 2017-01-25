@@ -66,7 +66,7 @@ class EmsSelector {
      * @param string $emsCompany
      * @param $emsNumber
      */
-    public function __construct($emsCompany = 'auto' , $emsNumber)
+    public function __construct($emsNumber , $emsCompany = 'auto')
     {
         $this->host = 'http://ali-deliver.showapi.com/showapi_expInfo';
         $this->method = 'GET';
