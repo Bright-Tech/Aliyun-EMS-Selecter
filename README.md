@@ -1,2 +1,2 @@
-# Aliyun-EMS-Selecter
+# Aliyun-EMS-Selector
 全国快递查询
