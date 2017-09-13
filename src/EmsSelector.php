@@ -96,10 +96,10 @@ class EmsSelector {
         try{
             $result = curl_exec($curl);
             $headerSize = curl_getinfo($curl, CURLINFO_HEADER_SIZE);
-            curl_close();
+            curl_close($curl);
             return substr($result, $headerSize);
         } catch (\Exception $e) {
-            curl_close();
+            curl_close($curl);
             \Log::error($e->getMessage());
         }
     }
